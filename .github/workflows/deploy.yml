@@ -14,7 +14,7 @@ jobs:
       uses: mariamrf/py-lambda-action@v1.0.1
       with:
         lambda_layer_arn: 'arn:aws:lambda:us-east-2:708310963101:function:hello-python'
-        lambda_function_name: 'hello-python'
+        lambda_function_name: 'lambda_function'
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
