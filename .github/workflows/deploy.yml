@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  build:
+  deploy:
     environment: sandbox
     runs-on: ubuntu-latest
     
