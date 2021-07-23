@@ -5,7 +5,7 @@ def lambda_handler(event, context):
     # TODO implement
 
     print("body -> " + event.get('body', 'FUDEU'))
-    print("direct message ->" + event.get('FUDEU'))
+    print("direct message ->" + event.get('message', 'FUDEU'))
 
     return {
         'statusCode': 200,
