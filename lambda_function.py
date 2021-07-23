@@ -6,5 +6,5 @@ def lambda_handler(event, context):
 
     return {
         'statusCode': 200,
-        'message': 'ta dificil'
+        'message': 'ta dificil e nao eh pouco'
     }
