@@ -4,11 +4,13 @@ import json
 def lambda_handler(event, context):
     # TODO implement
 
-    print(event)
+    coco = 'coco'
 
+    if event['message']:
+        coco = event['message']
     return {
         'statusCode': 200,
         'body': {
-            'message': event['message']
+            'message': coco
         }
     }
