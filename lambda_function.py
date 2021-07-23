@@ -8,5 +8,7 @@ def lambda_handler(event, context):
 
     return {
         'statusCode': 200,
-        'body': 'vaaaaaaaaai'
+        'body': {
+            'message': event['message']
+        }
     }
