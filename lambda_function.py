@@ -4,9 +4,9 @@ import json
 def lambda_handler(event, context):
     # TODO implement
 
-    print(event['key1'])
+    print(event)
 
     return {
         'statusCode': 200,
-        'body': event['key1']
+        'body': 'vaaaaaaaaai'
     }
